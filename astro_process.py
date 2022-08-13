@@ -84,7 +84,7 @@ if __name__ == "__main__":
 
 
     logging.info(f"Deconvolving image")
-    img = deconvolve(img, args.radius, args.sigma)
+    #img = deconvolve(img, args.radius, args.sigma)
 
     if args.deconvolution_output:
         logging.info(f"Saving deconvolution adjustment file {args.deconvolution_output}")
